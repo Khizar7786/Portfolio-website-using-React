@@ -16,6 +16,10 @@ function App() {
       element : <AppLayout/>,
       children :[
         {
+          index: true,
+          element: <Myintro/>
+        },
+        {
       path: "/myintro",
       element: <Myintro/>
     },
