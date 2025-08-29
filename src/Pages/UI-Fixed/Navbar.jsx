@@ -14,10 +14,18 @@ function Navbar() {
 
         <div className="links">
           <ul>
-            <li><NavLink className="hover-underline-animation" to="Myintro">My Intro</NavLink></li>
-            <li><NavLink className="hover-underline-animation" to="about">About</NavLink></li>
-            <li><NavLink className="hover-underline-animation" to="experience">Experience</NavLink></li>
-            <li><NavLink className="hover-underline-animation" to="contact">Contact</NavLink></li>
+            <li><NavLink  to="/Myintro" className={({ isActive }) => 
+    `hover-underline-animation ${isActive ? "active" : ""}`
+  } >My Intro</NavLink></li>
+            <li><NavLink  to="/about" className={({ isActive }) => 
+    `hover-underline-animation ${isActive ? "active-link" : ""}`
+  }>About</NavLink></li>
+            <li><NavLink  to="/experience"className={({ isActive }) => 
+    `hover-underline-animation ${isActive ? "active-link" : ""}`
+  } >Experience</NavLink></li>
+            <li><NavLink to="/contact"   className={({ isActive }) => 
+    `hover-underline-animation ${isActive ? "active-link" : ""}`
+  }>Contact</NavLink></li>
           </ul>
         </div>
 

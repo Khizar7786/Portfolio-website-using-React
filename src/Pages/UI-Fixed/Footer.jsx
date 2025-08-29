@@ -46,7 +46,7 @@ function Footer() {
     </div>
   </div>
   <div className="copyright-bar">
-    <p>Copyright @2021</p>
+    <p>Copyright @2025</p>
     <a
       href="#"
       style={{ textDecoration: "none", marginLeft: "20px" }}
