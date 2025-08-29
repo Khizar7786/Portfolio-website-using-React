@@ -15,7 +15,7 @@ function Navbar() {
         <div className="links">
           <ul>
             <li><NavLink  to="/Myintro" className={({ isActive }) => 
-    `hover-underline-animation ${isActive ? "active" : ""}`
+    `hover-underline-animation ${isActive ? "active-link" : ""}`
   } >My Intro</NavLink></li>
             <li><NavLink  to="/about" className={({ isActive }) => 
     `hover-underline-animation ${isActive ? "active-link" : ""}`
