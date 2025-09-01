@@ -7,6 +7,7 @@ import About from './Pages/About'
 import AppLayout from './Pages/AppLayout'
 import Myintro from './Myintro'
 import Experience from './Pages/Experience'
+import Errorpage from './Pages/Errorpage'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     {
       path:"/",
       element : <AppLayout/>,
+      errorElement: <Errorpage/>,
       children :[
         {
           index: true,
