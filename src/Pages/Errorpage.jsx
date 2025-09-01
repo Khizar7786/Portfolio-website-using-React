@@ -16,6 +16,7 @@ function Errorpage() {
       autoplay
       className='error'
     />
+    <h1 className='m-'>You have landed at wrong page</h1>
     <NavLink to="/" className="goBackBtn">GO BACK</NavLink>
     </div>
     </>
